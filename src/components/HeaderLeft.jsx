@@ -43,12 +43,18 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
 
             <li className="flex items-center gap-2">
               <BiEnvelope className="text-xl" />
-              <span>nikhilhaspe5220@gmail.com</span>
+              <span>
+                <a href="mailto:nikhilhaspe5220@gmail.com">
+                  nikhilhaspe5220@gmail.com
+                </a>
+              </span>
             </li>
 
             <li className="flex items-center gap-2">
               <BiPhone className="text-xl" />
-              <span>+91-8550901787</span>
+              <span>
+                <a href="tel:+91-8550901787">+91-8550901787</a>
+              </span>
             </li>
           </ul>
         </div>
@@ -89,7 +95,7 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
                 Computer Science & Engineering
               </span>
               <span className="font-light">
-                Maharashtra Institue OF Technology
+                Maharashtra Institue Of Technology
               </span>
               <span className="text-sm text-gray-400">2019-2023</span>
             </li>
@@ -97,13 +103,13 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
             <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/2 before:h-3 before:w-3 before:-translate-y-1/2 before:rounded-full before:bg-black dark:before:bg-white before:transform">
               <span className="font-semibold md:text-lg">HSC Board</span>
               <span className="font-light">M.S.M.P, Yashwantnagar</span>
-              <span className="text-sm text-gray-400">2019-2023</span>
+              <span className="text-sm text-gray-400">2018-2019</span>
             </li>
 
             <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/2 before:h-3 before:w-3 before:-translate-y-1/2 before:rounded-full before:bg-black dark:before:bg-white before:transform">
               <span className="font-semibold md:text-lg">SSC Board</span>
               <span className="font-light">M.S.M.P, Yashwantnagar</span>
-              <span className="text-sm text-gray-400">2019-2023</span>
+              <span className="text-sm text-gray-400">2016-2017</span>
             </li>
           </ul>
         </div>
@@ -112,18 +118,54 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
           <h1 className="text-base font-semibold md:text-2xl">SKILLS</h1>
 
           <div className="flex flex-wrap gap-3">
-            <div className="flex flex-wrap gap-3">
-              <span className="rounded-xl bg-black text-white p-3 text-center dark:bg-white dark:text-black">
+            <div className="flex flex-wrap gap-3 text-sm">
+              <span className="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">
                 ReactJs
               </span>
-              <span className="rounded-xl bg-black text-white p-3 text-center dark:bg-white dark:text-black">
+              <span className="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">
+                Redux
+              </span>
+              <span className="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">
+                React Query
+              </span>
+              <span className="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">
                 NodeJs
               </span>
-              <span className="rounded-xl bg-black text-white p-3 text-center dark:bg-white dark:text-black">
+              <span className="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">
+                ExpressJs
+              </span>
+              <span className="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">
                 MongoDB
               </span>
-              <span className="rounded-xl bg-black text-white p-3 text-center dark:bg-white dark:text-black">
-                Dotnet Core
+              <span className="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">
+                MS SQL Server
+              </span>
+              <span className="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">
+                .NET Core
+              </span>
+              <span className="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">
+                Git & Github
+              </span>
+              <span className="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">
+                Docker
+              </span>
+              <span className="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">
+                Kafka
+              </span>
+              <span className="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">
+                Supabase
+              </span>
+              <span className="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">
+                C#
+              </span>
+              <span className="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">
+                Javascript
+              </span>
+              <span className="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">
+                Python
+              </span>
+              <span className="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">
+                Java
               </span>
             </div>
           </div>

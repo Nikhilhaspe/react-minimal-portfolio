@@ -5,25 +5,14 @@ function Home() {
         <div className="space-y-5">
           <h1 className="text-2xl font-bold md:text-4xl">About</h1>
 
-          <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-            iste repudiandae provident ratione recusandae molestiae quos sint
-            voluptatibus fugit neque necessitatibus libero, eos, optio
-            doloremque magnam officia voluptatem ducimus officiis incidunt?
-            Fugit cupiditate, quia eius exercitationem aliquam at ducimus ut!
-            Qui alias quasi eius commodi assumenda possimus asperiores culpa et
-            facilis amet aspernatur corporis, dolore animi nam incidunt saepe
-            tenetur harum vel ea illum eligendi laudantium vitae! At unde,
-            accusantium amet, minus sit possimus reprehenderit commodi,
-            necessitatibus nemo error ad nulla animi id ipsa in architecto
-            excepturi officia. Assumenda soluta fugit dolore fugiat quia
-            quisquam quidem, quam rem pariatur. Saepe excepturi aliquam
-            perferendis doloribus reiciendis mollitia vitae dolor optio
-            blanditiis nesciunt veniam dolore quibusdam nostrum eveniet dicta
-            facere labore animi dolores placeat, reprehenderit velit ipsa!
-            Voluptatem sit quibusdam nostrum vero saepe aperiam, iusto omnis
-            sunt nulla, in unde. Maxime quasi eius non iure reiciendis porro
-            impedit dolor optio deserunt quos!
+          <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base text-justify">
+            A Computer Science graduate student with expertise in web
+            development, specializing in React.js, Node.js, Kafka, and .NET
+            Core. Skilled in building secure, scalable applications with a focus
+            on clean, readable code. Experienced with MongoDB, SQL Server, and
+            developing automated report generation applications. Strong
+            understanding of data structures, algorithms, and best practices for
+            creating maintainable, elegant codebases.
           </p>
         </div>
 
@@ -37,8 +26,10 @@ function Home() {
                   Associate Software Developer
                 </span>
                 <span className="font-light">Mirae Asset Sharekhan</span>
-                <span className="text-sm text-gray-400">2016-2018</span>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <span className="text-sm text-gray-400 italic">
+                  June 2023 - Present
+                </span>
+                <p className="text-sm text-gray-600 dark:text-gray-400 text-justify">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Quisquam officiis sunt porro odio, explicabo mollitia libero
                   maxime praesentium dolor, doloremque totam aut! Voluptate
@@ -54,21 +45,19 @@ function Home() {
 
               <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/2 before:h-3 before:w-3 before:-translate-y-1/2 before:rounded-full before:bg-black dark:before:bg-white before:transform">
                 <span className="text-lg font-semibold">
-                  Associate Software Developer
+                  MERN/DSA Mentor & Mock interviewer
                 </span>
-                <span className="font-light">Mirae Asset Sharekhan</span>
-                <span className="text-sm text-gray-400">2016-2018</span>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Quisquam officiis sunt porro odio, explicabo mollitia libero
-                  maxime praesentium dolor, doloremque totam aut! Voluptate
-                  voluptatum eos deleniti accusantium ab, non quod. Quaerat
-                  veritatis, dolorum consectetur vel pariatur distinctio iure,
-                  quae, unde modi a explicabo ipsam rerum. Saepe blanditiis amet
-                  consequuntur soluta ea molestiae minima recusandae
-                  exercitationem consequatur esse. Ut consequatur tempora illo
-                  culpa dicta nihil, maiores iste consectetur eaque numquam iure
-                  quisquam ipsum deserunt eligendi pariatur.
+                <span className="font-light">Codefeast</span>
+                <span className="text-sm text-gray-400 italic">
+                  Nov 2022 - May 2023
+                </span>
+                <p className="text-sm text-gray-600 dark:text-gray-400 text-justify">
+                  Conducted MERN stack web development and DSA in Java training
+                  sessions for students, ensuring hands-on learning and
+                  conceptual clarity. Led mock interviews, providing
+                  constructive feedback to help students refine their
+                  problem-solving, coding, and communication skills for
+                  real-world technical interviews.
                 </p>
               </li>
             </ul>
@@ -76,21 +65,19 @@ function Home() {
             <ul>
               <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/2 before:h-3 before:w-3 before:-translate-y-1/2 before:rounded-full before:bg-black dark:before:bg-white before:transform">
                 <span className="text-lg font-semibold">
-                  Associate Software Developer
+                  Full Stack Developer
                 </span>
-                <span className="font-light">Mirae Asset Sharekhan</span>
-                <span className="text-sm text-gray-400">2016-2018</span>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Quisquam officiis sunt porro odio, explicabo mollitia libero
-                  maxime praesentium dolor, doloremque totam aut! Voluptate
-                  voluptatum eos deleniti accusantium ab, non quod. Quaerat
-                  veritatis, dolorum consectetur vel pariatur distinctio iure,
-                  quae, unde modi a explicabo ipsam rerum. Saepe blanditiis amet
-                  consequuntur soluta ea molestiae minima recusandae
-                  exercitationem consequatur esse. Ut consequatur tempora illo
-                  culpa dicta nihil, maiores iste consectetur eaque numquam iure
-                  quisquam ipsum deserunt eligendi pariatur.
+                <span className="font-light">
+                  iComply Lifescience Solutions
+                </span>
+                <span className="text-sm text-gray-400 italic">
+                  Aug 2022 - May 2023
+                </span>
+                <p className="text-sm text-gray-600 dark:text-gray-400 text-justify">
+                  Developed Node.js APIs with SQL Server integration, ensuring
+                  efficient database interactions and optimized queries.
+                  Integrated APIs with a React frontend, enabling seamless data
+                  flow and a responsive user experience.
                 </p>
               </li>
             </ul>
