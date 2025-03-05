@@ -107,6 +107,49 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
             </li>
           </ul>
         </div>
+
+        <div className="flex flex-col items-start justify-start gap-5 border-b p-5 dark:border-gray-700">
+          <h1 className="text-base font-semibold md:text-2xl">SKILLS</h1>
+
+          <div className="flex flex-wrap gap-3">
+            <div className="flex flex-wrap gap-3">
+              <span className="rounded-xl bg-black text-white p-3 text-center dark:bg-white dark:text-black">
+                ReactJs
+              </span>
+              <span className="rounded-xl bg-black text-white p-3 text-center dark:bg-white dark:text-black">
+                NodeJs
+              </span>
+              <span className="rounded-xl bg-black text-white p-3 text-center dark:bg-white dark:text-black">
+                MongoDB
+              </span>
+              <span className="rounded-xl bg-black text-white p-3 text-center dark:bg-white dark:text-black">
+                Dotnet Core
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-col items-start justify-start gap-5 border-b p-5 dark:border-gray-700">
+          <h1 className="text-base font-semibold md:text-2xl">HOBBIES</h1>
+
+          <div className="flex flex-wrap gap-16 p-3">
+            <ul className="flex list-disc flex-col gap-3">
+              <li>Watching SciFi TV Shows</li>
+              <li>Travelling</li>
+              <li>Coding</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="flex flex-col items-start justify-start gap-5 border-b p-5 dark:border-gray-700">
+          <h1 className="text-base font-semibold md:text-2xl">LANGUAGES</h1>
+
+          <ul className="flex list-disc flex-wrap gap-12 md:text-lg">
+            <li>English</li>
+            <li>Hindi</li>
+            <li>Marathi</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
