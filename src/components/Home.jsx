@@ -85,93 +85,259 @@ function Home() {
         </div>
 
         <div className="max-w-3xl space-y-8">
-          <h1 className="text-2xl font-bold md:text-4xl">Certificates</h1>
+          <h1 className="text-2xl font-bold md:text-4xl">Projects</h1>
 
           <div className="space-y-10">
             <div className="text-baseline space-y-3">
               <h3 className="text-sm font-semibold md:text-lg">
-                Certificate of attendace in web dev bootcamp
+                <a
+                  href="https://natours-ecru-nu.vercel.app/"
+                  target="_blank"
+                  className="hover:underline"
+                >
+                  The Natours App &rarr;
+                </a>
               </h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eum
-                aliquam sunt perferendis tenetur, sit minus nulla illum quidem
-                repellendus molestiae adipisci ullam dolorum ex ducimus fugiat
-                perspiciatis, quas voluptatibus explicabo! Distinctio, nisi
-                iure, nihil beatae, quae debitis officia ut at vero voluptatibus
-                obcaecati adipisci deserunt aut optio enim quibusdam.
+              <p className="flex flex-col gap-1 text-sm text-gray-600 dark:text-gray-400 md:text-base">
+                <span className="text-justify">
+                  Server side rendered Tours booking website with credit card
+                  payments support using Stripe. Fully protected with JWT for
+                  the authentication & authorization with multiple roles. Comes
+                  with email support for billing confirmation and basic
+                  activities such as password reset link and much more!
+                </span>
+                <span className="font-semibold">
+                  Technologies Used: NodeJs, ExpressJs, Stripe, MongoDB,
+                  MailTrap
+                </span>
               </p>
             </div>
 
             <div className="text-baseline space-y-3">
               <h3 className="text-sm font-semibold md:text-lg">
-                Certificate of attendace in web dev bootcamp
+                <a
+                  href="https://the-wild-oasis-ruby-alpha.vercel.app/"
+                  target="_blank"
+                  className="hover:underline"
+                >
+                  The Wild Oasis &rarr;
+                </a>
               </h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eum
-                aliquam sunt perferendis tenetur, sit minus nulla illum quidem
-                repellendus molestiae adipisci ullam dolorum ex ducimus fugiat
-                perspiciatis, quas voluptatibus explicabo! Distinctio, nisi
-                iure, nihil beatae, quae debitis officia ut at vero voluptatibus
-                obcaecati adipisci deserunt aut optio enim quibusdam.
+              <p className="flex flex-col gap-1 text-sm text-gray-600 dark:text-gray-400 md:text-base">
+                <span className="text-justify">
+                  Realtime hotel management website built using ReactJs,
+                  Tanstack React Query & Supabase. It is used to manage check
+                  in, check out, manage cabins and manage payment information of
+                  the hotel. Protected using JWT for Authentication &
+                  Authorization.
+                </span>
+                <span className="font-semibold">
+                  Technologies Used: ReactJs, ContextAPI, Compound Component
+                  Pattern, Tanstack React Query, Supabase, React Icons
+                </span>
               </p>
             </div>
 
             <div className="text-baseline space-y-3">
               <h3 className="text-sm font-semibold md:text-lg">
-                Certificate of attendace in web dev bootcamp
+                <a
+                  href="https://nikhilhaspe.github.io/SpendWise/"
+                  target="_blank"
+                  className="hover:underline"
+                >
+                  SpendWise &rarr;
+                </a>
               </h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eum
-                aliquam sunt perferendis tenetur, sit minus nulla illum quidem
-                repellendus molestiae adipisci ullam dolorum ex ducimus fugiat
-                perspiciatis, quas voluptatibus explicabo! Distinctio, nisi
-                iure, nihil beatae, quae debitis officia ut at vero voluptatibus
-                obcaecati adipisci deserunt aut optio enim quibusdam.
+              <p className="flex flex-col gap-1 text-sm text-gray-600 dark:text-gray-400 md:text-base">
+                <span className="text-justify">
+                  Entirely browser&apos;s indexed db storage based web
+                  application to store and manage the spendings of the user.
+                  Protected with basic email and password authentication. Users
+                  can manage and track thier spendings even without internet
+                  connectivity! once they save the site in offline mode. Comes
+                  with handy filter and sort features.
+                </span>
+                <span className="font-semibold">
+                  Technologies Used: ReactJs, Context API, React Icons
+                </span>
               </p>
+            </div>
+
+            <div className="text-baseline space-y-3">
+              <h3 className="text-sm font-semibold md:text-lg">
+                <a
+                  href="https://github.com/Nikhilhaspe?tab=repositories"
+                  target="_blank"
+                  className="hover:underline"
+                >
+                  For more projects, click here &rarr;
+                </a>
+              </h3>
             </div>
           </div>
         </div>
 
-        <div className="space-y-10">
-          <h1 className="text-2xl font-bold md:text-4xl">References</h1>
-          <div className="flex flex-wrap gap-10">
-            <div className="text-baseline space-y-1">
-              <h3 className="text-lg font-light">Mobile Developer</h3>
-              <h2 className="text-base font-semi-bold md:text-2xl">
-                Mr. Davis Jackson
-              </h2>
-              <p className="text-gray-600 dark:text-gray-400">
-                Phone: 123-456-789
-              </p>
-              <p className="text-gray-600 dark:text-gray-400">
-                email: user@gmail.com
+        <div className="max-w-3xl space-y-8">
+          <h1 className="text-2xl font-bold md:text-4xl">Accomplishments</h1>
+
+          <div className="text-baseline space-y-3">
+            <h3 className="text-sm font-semibold md:text-lg">
+              <a
+                className="hover:underline"
+                href="https://leetcode.com/u/NikhilHaspe/"
+                target="_blank"
+              >
+                Achieved 200+ days streak badge on Leetcode &rarr;
+              </a>
+            </h3>
+            <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base">
+              Solved various DSA problems of all difficulty level thereby
+              achieved 11 badges from the Leetcode.
+            </p>
+          </div>
+
+          <div className="space-y-10">
+            <div className="text-baseline space-y-3">
+              <h3 className="text-sm font-semibold md:text-lg">
+                <a
+                  className="hover:underline"
+                  href="https://drive.google.com/file/d/19PfEbDapBuqu-gOjgBP_VnvgoBeJ4K6J/view?usp=drive_link"
+                  target="_blank"
+                >
+                  Achieved 3rd rank in Roarathon Hackthon &rarr;
+                </a>
+              </h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base">
+                Developed a website for tracking of the tickets and email
+                automation for creating the dashboard of the user which will be
+                responsible for showing his/her pending/assigned tasks via mail.
               </p>
             </div>
 
-            <div className="text-baseline space-y-1">
-              <h3 className="text-lg font-light">Mobile Developer</h3>
-              <h2 className="text-base font-semi-bold md:text-2xl">
-                Mr. Imran Memon
-              </h2>
-              <p className="text-gray-600 dark:text-gray-400">
-                Phone: 123-456-789
-              </p>
-              <p className="text-gray-600 dark:text-gray-400">
-                email: chutiya@gmail.com
+            <div className="text-baseline space-y-3">
+              <h3 className="text-sm font-semibold md:text-lg">
+                <a
+                  className="hover:underline"
+                  href="https://drive.google.com/file/d/16QUONgwPg1rd4KjueenYOFfU8dqkEa3H/view?usp=sharing"
+                  target="_blank"
+                >
+                  Letter Of Recommendation From Codefeast &rarr;
+                </a>
+              </h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base">
+                Letter of recommendation from manager for working as a MERN/DSA
+                Mentor & Mock interviewer during my internship.
               </p>
             </div>
 
-            <div className="text-baseline space-y-1">
-              <h3 className="text-lg font-light">Mobile Developer</h3>
-              <h2 className="text-base font-semi-bold md:text-2xl">
-                Mr. Davis Jackson
-              </h2>
-              <p className="text-gray-600 dark:text-gray-400">
-                Phone: 123-456-789
-              </p>
-              <p className="text-gray-600 dark:text-gray-400">
-                email: user@gmail.com
-              </p>
+            <div className="text-baseline space-y-3">
+              <h3 className="text-sm font-semibold md:text-lg">
+                <a
+                  className="hover:underline"
+                  href="https://drive.google.com/file/d/1HP_RrpbZ0mkKC9FT6QWn-JYgArgSRD8G/view?usp=sharing"
+                  target="_blank"
+                >
+                  Internship Certificate (MERN/DSA Mentor & Mock interviewer)
+                  from Codefeast &rarr;
+                </a>
+              </h3>
+            </div>
+
+            <div className="text-baseline space-y-3">
+              <h3 className="text-sm font-semibold md:text-lg">
+                <a
+                  className="hover:underline"
+                  href="https://drive.google.com/file/d/1vcCKC8o7yxs_WVQdSpuRWVTKwS84XmhE/view?usp=sharing"
+                  target="_blank"
+                >
+                  Internship Certificate (Full Stack Developer) from iComply
+                  Lifescience Solutions &rarr;
+                </a>
+              </h3>
+            </div>
+
+            <div className="text-baseline space-y-3">
+              <h3 className="text-sm font-semibold md:text-lg">
+                <a
+                  className="hover:underline"
+                  href="https://www.sololearn.com/Certificate/CT-2QRC8Y7M/png"
+                  target="_blank"
+                >
+                  SQL Certification From SoloLearn &rarr;
+                </a>
+              </h3>
+            </div>
+
+            <div className="text-baseline space-y-3">
+              <h3 className="text-sm font-semibold md:text-lg">
+                <a
+                  className="hover:underline"
+                  href="https://www.sololearn.com/Certificate/CT-T55T8DOA/jpg"
+                  target="_blank"
+                >
+                  React & Redux Certification From SoloLearn &rarr;
+                </a>
+              </h3>
+            </div>
+
+            <div className="text-baseline space-y-3">
+              <h3 className="text-sm font-semibold md:text-lg">
+                <a
+                  className="hover:underline"
+                  href="https://www.sololearn.com/Certificate/CT-CY82IRQG/png"
+                  target="_blank"
+                >
+                  Javascript Certification From SoloLearn &rarr;
+                </a>
+              </h3>
+            </div>
+
+            <div className="text-baseline space-y-3">
+              <h3 className="text-sm font-semibold md:text-lg">
+                <a
+                  className="hover:underline"
+                  href="https://www.hackerrank.com/certificates/60d34fa506ae"
+                  target="_blank"
+                >
+                  Java Certification From HackerRank &rarr;
+                </a>
+              </h3>
+            </div>
+
+            <div className="text-baseline space-y-3">
+              <h3 className="text-sm font-semibold md:text-lg">
+                <a
+                  className="hover:underline"
+                  href="https://www.hackerrank.com/certificates/2a93f1990f40"
+                  target="_blank"
+                >
+                  Python Certification From HackerRank &rarr;
+                </a>
+              </h3>
+            </div>
+
+            <div className="text-baseline space-y-3">
+              <h3 className="text-sm font-semibold md:text-lg">
+                <a
+                  className="hover:underline"
+                  href="https://www.linkedin.com/learning/certificates/9a7970ac256e6608a155e8abdc03035ee1c6d68a18bae0092c193856431c5e5f"
+                  target="_blank"
+                >
+                  HTML Certification From LinkedIn &rarr;
+                </a>
+              </h3>
+            </div>
+
+            <div className="text-baseline space-y-3">
+              <h3 className="text-sm font-semibold md:text-lg">
+                <a
+                  className="hover:underline"
+                  href="https://www.linkedin.com/learning/certificates/c2b0b023cdb297788b8f1465f38ff42eed2b97eaead73206e3f4f140c9d16089"
+                  target="_blank"
+                >
+                  CSS Certification From LinkedIn &rarr;
+                </a>
+              </h3>
             </div>
           </div>
         </div>
