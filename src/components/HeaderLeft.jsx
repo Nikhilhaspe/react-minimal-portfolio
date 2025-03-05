@@ -167,6 +167,12 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
               <span className="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">
                 Java
               </span>
+              <span className="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">
+                Socket Dev.
+              </span>
+              <span className="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">
+                Algorithms
+              </span>
             </div>
           </div>
         </div>
