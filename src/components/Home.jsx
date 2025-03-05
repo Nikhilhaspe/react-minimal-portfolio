@@ -16,7 +16,7 @@ function Home() {
           </p>
         </div>
 
-        <div className="space-y-10">
+        <div id="experience" className="space-y-10">
           <h1 className="text-2xl font-bold md:text-4xl">Experience</h1>
 
           <div className="flex flex-col lg:flex-row lg:gap-20">
@@ -84,7 +84,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="max-w-3xl space-y-8">
+        <div id="projects" className="max-w-3xl space-y-8">
           <h1 className="text-2xl font-bold md:text-4xl">Projects</h1>
 
           <div className="space-y-10">
@@ -177,7 +177,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="max-w-3xl space-y-8">
+        <div id="accomplishments" className="max-w-3xl space-y-8">
           <h1 className="text-2xl font-bold md:text-4xl">Accomplishments</h1>
 
           <div className="text-baseline space-y-3">
