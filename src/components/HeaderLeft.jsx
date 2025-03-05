@@ -1,6 +1,7 @@
 import {
   BiCurrentLocation,
   BiEnvelope,
+  BiFile,
   BiLogoGithub,
   BiLogoInstagram,
   BiLogoLinkedin,
@@ -36,6 +37,18 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
 
         <div className="flex flex-col items-start justify-start gap-5 border-b p-5 dark:border-gray-700">
           <ul className="space-y-3">
+            <li className="flex items-center gap-2">
+              <BiFile className="text-xl" />
+              <span>
+                <a
+                  href="https://drive.google.com/file/d/1fn7WYMvDYjMo1MY7ufG5Vb1nsiMNp4JD/view?usp=sharing"
+                  target="_blank"
+                >
+                  Get CV
+                </a>
+              </span>
+            </li>
+
             <li className="flex items-center gap-2">
               <BiCurrentLocation className="text-xl" />
               <span>Pune, Maharashtra, India</span>

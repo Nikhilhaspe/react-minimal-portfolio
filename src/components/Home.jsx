@@ -1,4 +1,17 @@
+import { useEffect } from "react";
+
 function Home() {
+  useEffect(function () {
+    const hash = window.location.hash;
+
+    if (hash) {
+      const element = document.getElementById(hash.substring(1));
+      if (element) {
+        element.scrollIntoView();
+      }
+    }
+  }, []);
+
   return (
     <div className="min-h-screen flex-[3] transition-all duration-500 dark:bg-black dark:text-white">
       <main className="flex max-w-[1000px] flex-col gap-10 p-5 md:mx-10 md:py-14">
@@ -30,16 +43,16 @@ function Home() {
                   June 2023 - Present
                 </span>
                 <p className="text-sm text-gray-600 dark:text-gray-400 text-justify">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Quisquam officiis sunt porro odio, explicabo mollitia libero
-                  maxime praesentium dolor, doloremque totam aut! Voluptate
-                  voluptatum eos deleniti accusantium ab, non quod. Quaerat
-                  veritatis, dolorum consectetur vel pariatur distinctio iure,
-                  quae, unde modi a explicabo ipsam rerum. Saepe blanditiis amet
-                  consequuntur soluta ea molestiae minima recusandae
-                  exercitationem consequatur esse. Ut consequatur tempora illo
-                  culpa dicta nihil, maiores iste consectetur eaque numquam iure
-                  quisquam ipsum deserunt eligendi pariatur.
+                  Developed a high-performance NSE Dropcopy Application for
+                  real-time risk processing using .NET Core, Kafka, and TCP/IP
+                  sockets, optimizing data throughput with multi-threading and
+                  an event-driven architecture. Led the migration of a legacy
+                  reporting tool from ASP.NET Web Forms to React.js and .NET
+                  Core, implementing dynamic report generation with filtering,
+                  validation, and export options (PDF, CSV, HTML). Ensured
+                  scalability, security, and maintainability by integrating JWT
+                  authentication, efficient logging, and automated email
+                  reporting.
                 </p>
               </li>
 

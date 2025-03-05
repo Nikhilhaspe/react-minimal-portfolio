@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="module">
+import RefreshRuntime from "/@react-refresh"
+RefreshRuntime.injectIntoGlobalHook(window)
+window.$RefreshReg$ = () => {}
+window.$RefreshSig$ = () => (type) => type
+window.__vite_plugin_react_preamble_installed__ = true
+</script>
+
+    <script type="module" src="./Portfolio _ Nikhil Haspe_files/client"></script>
+
+    
+    <link rel="icon" type="image/png" href="http://localhost:5173/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Nikhil Haspe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Portfolio _ Nikhil Haspe_files/css2" rel="stylesheet">
+  <style type="text/css" data-vite-dev-id="C:/Users/nikhi/Documents/React Projects/react-minimal-portfolio/src/index.css">/*
+! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
+*//*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+:host {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+  -webkit-tap-highlight-color: transparent; /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-feature-settings: normal; /* 2 */
+  font-variation-settings: normal; /* 3 */
+  font-size: 1em; /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  letter-spacing: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+[hidden] {
+  display: none;
+}
+
+*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.right-10 {
+  right: 2.5rem;
+}
+.top-10 {
+  top: 2.5rem;
+}
+.flex {
+  display: flex;
+}
+.min-h-screen {
+  min-height: 100vh;
+}
+.w-32 {
+  width: 8rem;
+}
+.w-full {
+  width: 100%;
+}
+.max-w-3xl {
+  max-width: 48rem;
+}
+.max-w-\[1000px\] {
+  max-width: 1000px;
+}
+.flex-1 {
+  flex: 1 1 0%;
+}
+.flex-\[3\] {
+  flex: 3;
+}
+.list-disc {
+  list-style-type: disc;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.items-start {
+  align-items: flex-start;
+}
+.items-center {
+  align-items: center;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-center {
+  justify-content: center;
+}
+.gap-1 {
+  gap: 0.25rem;
+}
+.gap-10 {
+  gap: 2.5rem;
+}
+.gap-12 {
+  gap: 3rem;
+}
+.gap-16 {
+  gap: 4rem;
+}
+.gap-2 {
+  gap: 0.5rem;
+}
+.gap-3 {
+  gap: 0.75rem;
+}
+.gap-5 {
+  gap: 1.25rem;
+}
+.space-y-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+.space-y-10 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
+}
+.space-y-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+.space-y-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
+}
+.space-y-8 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+.rounded-full {
+  border-radius: 9999px;
+}
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+.border-b {
+  border-bottom-width: 1px;
+}
+.border-l {
+  border-left-width: 1px;
+}
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.p-10 {
+  padding: 2.5rem;
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.p-3 {
+  padding: 0.75rem;
+}
+.p-5 {
+  padding: 1.25rem;
+}
+.p-6 {
+  padding: 1.5rem;
+}
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-light {
+  font-weight: 300;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.italic {
+  font-style: italic;
+}
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.subpixel-antialiased {
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+}
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.duration-500 {
+  transition-duration: 500ms;
+}
+
+* {
+  font-family: "Inter";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.before\:absolute::before {
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.before\:left-\[-6px\]::before {
+  content: var(--tw-content);
+  left: -6px;
+}
+
+.before\:top-1\/2::before {
+  content: var(--tw-content);
+  top: 50%;
+}
+
+.before\:h-3::before {
+  content: var(--tw-content);
+  height: 0.75rem;
+}
+
+.before\:w-3::before {
+  content: var(--tw-content);
+  width: 0.75rem;
+}
+
+.before\:-translate-y-1\/2::before {
+  content: var(--tw-content);
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.before\:transform::before {
+  content: var(--tw-content);
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.before\:rounded-full::before {
+  content: var(--tw-content);
+  border-radius: 9999px;
+}
+
+.before\:bg-black::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
+.dark\:border-gray-700:is(.dark *) {
+  --tw-border-opacity: 1;
+  border-color: rgb(55 65 81 / var(--tw-border-opacity));
+}
+
+.dark\:bg-black:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.dark\:bg-white:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.dark\:text-black:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.dark\:text-gray-400:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.dark\:text-white:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.dark\:before\:bg-white:is(.dark *)::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 640px) {
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:border-r {
+    border-right-width: 1px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .md\:mx-10 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .md\:py-14 {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:gap-20 {
+    gap: 5rem;
+  }
+}
+</style></head>
+  <body>
+    <div id="root"><div class="min-h-screen w-full flex flex-col sm:flex-row subpixel-antialiased bg-white"><div class="min-h-screen flex-1 relative p-10 transition-all duration-500 dark:bg-black dark:text-white sm:border-r dark:border-gray-700"><div class="flex flex-col gap-5"><div class="flex flex-col items-center justify-center gap-5"><img src="./Portfolio _ Nikhil Haspe_files/my-photo-2.png" alt="my-photo" class="w-32 rounded-full"><div class="text-center space-y-1"><h1 class="text-4xl font-light">Nikhil <span class="font-semibold">Haspe</span></h1><h3 class="text-xl font-light">Web Developer</h3></div><button class="absolute right-10 top-10"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-2xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M20.742 13.045a8.088 8.088 0 0 1-2.077.271c-2.135 0-4.14-.83-5.646-2.336a8.025 8.025 0 0 1-2.064-7.723A1 1 0 0 0 9.73 2.034a10.014 10.014 0 0 0-4.489 2.582c-3.898 3.898-3.898 10.243 0 14.143a9.937 9.937 0 0 0 7.072 2.93 9.93 9.93 0 0 0 7.07-2.929 10.007 10.007 0 0 0 2.583-4.491 1.001 1.001 0 0 0-1.224-1.224zm-2.772 4.301a7.947 7.947 0 0 1-5.656 2.343 7.953 7.953 0 0 1-5.658-2.344c-3.118-3.119-3.118-8.195 0-11.314a7.923 7.923 0 0 1 2.06-1.483 10.027 10.027 0 0 0 2.89 7.848 9.972 9.972 0 0 0 7.848 2.891 8.036 8.036 0 0 1-1.484 2.059z"></path></svg></button></div><div class="flex flex-col items-start justify-start gap-5 border-b p-5 dark:border-gray-700"><ul class="space-y-3"><li class="flex items-center gap-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="4"></circle><path d="M13 4.069V2h-2v2.069A8.01 8.01 0 0 0 4.069 11H2v2h2.069A8.008 8.008 0 0 0 11 19.931V22h2v-2.069A8.007 8.007 0 0 0 19.931 13H22v-2h-2.069A8.008 8.008 0 0 0 13 4.069zM12 18c-3.309 0-6-2.691-6-6s2.691-6 6-6 6 2.691 6 6-2.691 6-6 6z"></path></svg><span>Pune, Maharashtra, India</span></li><li class="flex items-center gap-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z"></path></svg><span><a href="mailto:nikhilhaspe5220@gmail.com">nikhilhaspe5220@gmail.com</a></span></li><li class="flex items-center gap-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M17.707 12.293a.999.999 0 0 0-1.414 0l-1.594 1.594c-.739-.22-2.118-.72-2.992-1.594s-1.374-2.253-1.594-2.992l1.594-1.594a.999.999 0 0 0 0-1.414l-4-4a.999.999 0 0 0-1.414 0L3.581 5.005c-.38.38-.594.902-.586 1.435.023 1.424.4 6.37 4.298 10.268s8.844 4.274 10.269 4.298h.028c.528 0 1.027-.208 1.405-.586l2.712-2.712a.999.999 0 0 0 0-1.414l-4-4.001zm-.127 6.712c-1.248-.021-5.518-.356-8.873-3.712-3.366-3.366-3.692-7.651-3.712-8.874L7 4.414 9.586 7 8.293 8.293a1 1 0 0 0-.272.912c.024.115.611 2.842 2.271 4.502s4.387 2.247 4.502 2.271a.991.991 0 0 0 .912-.271L17 14.414 19.586 17l-2.006 2.005z"></path></svg><span><a href="tel:+91-8550901787">+91-8550901787</a></span></li></ul></div><div class="flex flex-col items-start justify-start gap-5 border-b p-5 dark:border-gray-700"><h1 class="text-base font-semibold md:text-2xl">SOCIAL</h1><ul class="space-y-3"><li class="flex items-center gap-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z"></path></svg><a href="https://github.com/Nikhilhaspe" target="_blank"><span>@Nikhilhaspe</span></a></li><li class="flex items-center gap-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="4.983" cy="5.009" r="2.188"></circle><path d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path></svg><a href="https://linkedin.com/in/nikhilhaspe" target="_blank"><span>@nikhilhaspe</span></a></li><li class="flex items-center gap-2"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"></path></svg><a href="https://www.instagram.com/nikhil_haspe" target="_blank"><span>@nikhil_haspe</span></a></li></ul></div><div class="flex flex-col gap-5 border-b p-5 items-start justify-start dark:border-gray-700"><h1 class="text-base font-semibold md:text-2xl">EDUCATION</h1><ul><li class="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/2 before:h-3 before:w-3 before:-translate-y-1/2 before:rounded-full before:bg-black dark:before:bg-white before:transform"><span class="font-semibold md:text-lg">Computer Science &amp; Engineering</span><span class="font-light">Maharashtra Institue Of Technology</span><span class="text-sm text-gray-400">2019-2023</span></li><li class="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/2 before:h-3 before:w-3 before:-translate-y-1/2 before:rounded-full before:bg-black dark:before:bg-white before:transform"><span class="font-semibold md:text-lg">HSC Board</span><span class="font-light">M.S.M.P, Yashwantnagar</span><span class="text-sm text-gray-400">2018-2019</span></li><li class="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/2 before:h-3 before:w-3 before:-translate-y-1/2 before:rounded-full before:bg-black dark:before:bg-white before:transform"><span class="font-semibold md:text-lg">SSC Board</span><span class="font-light">M.S.M.P, Yashwantnagar</span><span class="text-sm text-gray-400">2016-2017</span></li></ul></div><div class="flex flex-col items-start justify-start gap-5 border-b p-5 dark:border-gray-700"><h1 class="text-base font-semibold md:text-2xl">SKILLS</h1><div class="flex flex-wrap gap-3"><div class="flex flex-wrap gap-3 text-sm"><span class="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">ReactJs</span><span class="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">Redux</span><span class="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">React Query</span><span class="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">NodeJs</span><span class="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">ExpressJs</span><span class="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">MongoDB</span><span class="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">MS SQL Server</span><span class="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">.NET Core</span><span class="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">Git &amp; Github</span><span class="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">Docker</span><span class="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">Kafka</span><span class="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">Supabase</span><span class="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">C#</span><span class="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">Javascript</span><span class="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">Python</span><span class="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">Java</span><span class="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">Socket Dev.</span><span class="flex justify-center items-center rounded-xl bg-black text-white p-2 dark:bg-white dark:text-black">Algorithms</span></div></div></div><div class="flex flex-col items-start justify-start gap-5 border-b p-5 dark:border-gray-700"><h1 class="text-base font-semibold md:text-2xl">HOBBIES</h1><div class="flex flex-wrap gap-16 p-3"><ul class="flex list-disc flex-col gap-3"><li>Watching SciFi TV Shows</li><li>Travelling</li><li>Coding</li></ul></div></div><div class="flex flex-col items-start justify-start gap-5 border-b p-5 dark:border-gray-700"><h1 class="text-base font-semibold md:text-2xl">LANGUAGES</h1><ul class="flex list-disc flex-wrap gap-12 md:text-lg"><li>English</li><li>Hindi</li><li>Marathi</li></ul></div></div></div><div class="min-h-screen flex-[3] transition-all duration-500 dark:bg-black dark:text-white"><main class="flex max-w-[1000px] flex-col gap-10 p-5 md:mx-10 md:py-14"><div class="space-y-5"><h1 class="text-2xl font-bold md:text-4xl">About</h1><p class="text-sm text-gray-600 dark:text-gray-400 md:text-base text-justify">A Computer Science graduate student with expertise in web development, specializing in React.js, Node.js, Kafka, and .NET Core. Skilled in building secure, scalable applications with a focus on clean, readable code. Experienced with MongoDB, SQL Server, and developing automated report generation applications. Strong understanding of data structures, algorithms, and best practices for creating maintainable, elegant codebases.</p></div><div id="experience" class="space-y-10"><h1 class="text-2xl font-bold md:text-4xl">Experience</h1><div class="flex flex-col lg:flex-row lg:gap-20"><ul><li class="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/2 before:h-3 before:w-3 before:-translate-y-1/2 before:rounded-full before:bg-black dark:before:bg-white before:transform"><span class="text-lg font-semibold">Associate Software Developer</span><span class="font-light">Mirae Asset Sharekhan</span><span class="text-sm text-gray-400 italic">June 2023 - Present</span><p class="text-sm text-gray-600 dark:text-gray-400 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam officiis sunt porro odio, explicabo mollitia libero maxime praesentium dolor, doloremque totam aut! Voluptate voluptatum eos deleniti accusantium ab, non quod. Quaerat veritatis, dolorum consectetur vel pariatur distinctio iure, quae, unde modi a explicabo ipsam rerum. Saepe blanditiis amet consequuntur soluta ea molestiae minima recusandae exercitationem consequatur esse. Ut consequatur tempora illo culpa dicta nihil, maiores iste consectetur eaque numquam iure quisquam ipsum deserunt eligendi pariatur.</p></li><li class="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/2 before:h-3 before:w-3 before:-translate-y-1/2 before:rounded-full before:bg-black dark:before:bg-white before:transform"><span class="text-lg font-semibold">MERN/DSA Mentor &amp; Mock interviewer</span><span class="font-light">Codefeast</span><span class="text-sm text-gray-400 italic">Nov 2022 - May 2023</span><p class="text-sm text-gray-600 dark:text-gray-400 text-justify">Conducted MERN stack web development and DSA in Java training sessions for students, ensuring hands-on learning and conceptual clarity. Led mock interviews, providing constructive feedback to help students refine their problem-solving, coding, and communication skills for real-world technical interviews.</p></li></ul><ul><li class="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/2 before:h-3 before:w-3 before:-translate-y-1/2 before:rounded-full before:bg-black dark:before:bg-white before:transform"><span class="text-lg font-semibold">Full Stack Developer</span><span class="font-light">iComply Lifescience Solutions</span><span class="text-sm text-gray-400 italic">Aug 2022 - May 2023</span><p class="text-sm text-gray-600 dark:text-gray-400 text-justify">Developed Node.js APIs with SQL Server integration, ensuring efficient database interactions and optimized queries. Integrated APIs with a React frontend, enabling seamless data flow and a responsive user experience.</p></li></ul></div></div><div id="projects" class="max-w-3xl space-y-8"><h1 class="text-2xl font-bold md:text-4xl">Projects</h1><div class="space-y-10"><div class="text-baseline space-y-3"><h3 class="text-sm font-semibold md:text-lg"><a href="https://natours-ecru-nu.vercel.app/" target="_blank" class="hover:underline">The Natours App →</a></h3><p class="flex flex-col gap-1 text-sm text-gray-600 dark:text-gray-400 md:text-base"><span class="text-justify">Server side rendered Tours booking website with credit card payments support using Stripe. Fully protected with JWT for the authentication &amp; authorization with multiple roles. Comes with email support for billing confirmation and basic activities such as password reset link and much more!</span><span class="font-semibold">Technologies Used: NodeJs, ExpressJs, Stripe, MongoDB, MailTrap</span></p></div><div class="text-baseline space-y-3"><h3 class="text-sm font-semibold md:text-lg"><a href="https://the-wild-oasis-ruby-alpha.vercel.app/" target="_blank" class="hover:underline">The Wild Oasis →</a></h3><p class="flex flex-col gap-1 text-sm text-gray-600 dark:text-gray-400 md:text-base"><span class="text-justify">Realtime hotel management website built using ReactJs, Tanstack React Query &amp; Supabase. It is used to manage check in, check out, manage cabins and manage payment information of the hotel. Protected using JWT for Authentication &amp; Authorization.</span><span class="font-semibold">Technologies Used: ReactJs, ContextAPI, Compound Component Pattern, Tanstack React Query, Supabase, React Icons</span></p></div><div class="text-baseline space-y-3"><h3 class="text-sm font-semibold md:text-lg"><a href="https://nikhilhaspe.github.io/SpendWise/" target="_blank" class="hover:underline">SpendWise →</a></h3><p class="flex flex-col gap-1 text-sm text-gray-600 dark:text-gray-400 md:text-base"><span class="text-justify">Entirely browser's indexed db storage based web application to store and manage the spendings of the user. Protected with basic email and password authentication. Users can manage and track thier spendings even without internet connectivity! once they save the site in offline mode. Comes with handy filter and sort features.</span><span class="font-semibold">Technologies Used: ReactJs, Context API, React Icons</span></p></div><div class="text-baseline space-y-3"><h3 class="text-sm font-semibold md:text-lg"><a href="https://github.com/Nikhilhaspe?tab=repositories" target="_blank" class="hover:underline">For more projects, click here →</a></h3></div></div></div><div id="accomplishments" class="max-w-3xl space-y-8"><h1 class="text-2xl font-bold md:text-4xl">Accomplishments</h1><div class="text-baseline space-y-3"><h3 class="text-sm font-semibold md:text-lg"><a class="hover:underline" href="https://leetcode.com/u/NikhilHaspe/" target="_blank">Achieved 200+ days streak badge on Leetcode →</a></h3><p class="text-sm text-gray-600 dark:text-gray-400 md:text-base">Solved various DSA problems of all difficulty level thereby achieved 11 badges from the Leetcode.</p></div><div class="space-y-10"><div class="text-baseline space-y-3"><h3 class="text-sm font-semibold md:text-lg"><a class="hover:underline" href="https://drive.google.com/file/d/19PfEbDapBuqu-gOjgBP_VnvgoBeJ4K6J/view?usp=drive_link" target="_blank">Achieved 3rd rank in Roarathon Hackthon →</a></h3><p class="text-sm text-gray-600 dark:text-gray-400 md:text-base">Developed a website for tracking of the tickets and email automation for creating the dashboard of the user which will be responsible for showing his/her pending/assigned tasks via mail.</p></div><div class="text-baseline space-y-3"><h3 class="text-sm font-semibold md:text-lg"><a class="hover:underline" href="https://drive.google.com/file/d/16QUONgwPg1rd4KjueenYOFfU8dqkEa3H/view?usp=sharing" target="_blank">Letter Of Recommendation From Codefeast →</a></h3><p class="text-sm text-gray-600 dark:text-gray-400 md:text-base">Letter of recommendation from manager for working as a MERN/DSA Mentor &amp; Mock interviewer during my internship.</p></div><div class="text-baseline space-y-3"><h3 class="text-sm font-semibold md:text-lg"><a class="hover:underline" href="https://drive.google.com/file/d/1HP_RrpbZ0mkKC9FT6QWn-JYgArgSRD8G/view?usp=sharing" target="_blank">Internship Certificate (MERN/DSA Mentor &amp; Mock interviewer) from Codefeast →</a></h3></div><div class="text-baseline space-y-3"><h3 class="text-sm font-semibold md:text-lg"><a class="hover:underline" href="https://drive.google.com/file/d/1vcCKC8o7yxs_WVQdSpuRWVTKwS84XmhE/view?usp=sharing" target="_blank">Internship Certificate (Full Stack Developer) from iComply Lifescience Solutions →</a></h3></div><div class="text-baseline space-y-3"><h3 class="text-sm font-semibold md:text-lg"><a class="hover:underline" href="https://www.sololearn.com/Certificate/CT-2QRC8Y7M/png" target="_blank">SQL Certification From SoloLearn →</a></h3></div><div class="text-baseline space-y-3"><h3 class="text-sm font-semibold md:text-lg"><a class="hover:underline" href="https://www.sololearn.com/Certificate/CT-T55T8DOA/jpg" target="_blank">React &amp; Redux Certification From SoloLearn →</a></h3></div><div class="text-baseline space-y-3"><h3 class="text-sm font-semibold md:text-lg"><a class="hover:underline" href="https://www.sololearn.com/Certificate/CT-CY82IRQG/png" target="_blank">Javascript Certification From SoloLearn →</a></h3></div><div class="text-baseline space-y-3"><h3 class="text-sm font-semibold md:text-lg"><a class="hover:underline" href="https://www.hackerrank.com/certificates/60d34fa506ae" target="_blank">Java Certification From HackerRank →</a></h3></div><div class="text-baseline space-y-3"><h3 class="text-sm font-semibold md:text-lg"><a class="hover:underline" href="https://www.hackerrank.com/certificates/2a93f1990f40" target="_blank">Python Certification From HackerRank →</a></h3></div><div class="text-baseline space-y-3"><h3 class="text-sm font-semibold md:text-lg"><a class="hover:underline" href="https://www.linkedin.com/learning/certificates/9a7970ac256e6608a155e8abdc03035ee1c6d68a18bae0092c193856431c5e5f" target="_blank">HTML Certification From LinkedIn →</a></h3></div><div class="text-baseline space-y-3"><h3 class="text-sm font-semibold md:text-lg"><a class="hover:underline" href="https://www.linkedin.com/learning/certificates/c2b0b023cdb297788b8f1465f38ff42eed2b97eaead73206e3f4f140c9d16089" target="_blank">CSS Certification From LinkedIn →</a></h3></div></div></div></main></div></div></div>
+    <script type="module" src="./Portfolio _ Nikhil Haspe_files/main.jsx"></script>
+  
+
+</body></html>
