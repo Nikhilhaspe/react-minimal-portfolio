@@ -104,7 +104,7 @@ function Home() {
             <div className="text-baseline space-y-3">
               <h3 className="text-sm font-semibold md:text-lg">
                 <a
-                  href="https://natours-ecru-nu.vercel.app/"
+                  href="https://natour-api-pi.vercel.app/"
                   target="_blank"
                   className="hover:underline"
                 >
