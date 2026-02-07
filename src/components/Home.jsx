@@ -244,7 +244,7 @@ function Home() {
                   href="https://www.udemy.com/certificate/UC-bd0543cb-a09d-41b9-b262-bbb3f9ce7124/"
                   target="_blank"
                 >
-                  Redis Certification from Udemy &rarr;
+                  Redis Certification From Udemy &rarr;
                 </a>
               </h3>
             </div>

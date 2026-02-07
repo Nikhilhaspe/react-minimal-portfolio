@@ -41,7 +41,7 @@ function HeaderLeft({ darkMode, toggleDarkMode }) {
               <BiFile className="text-xl" />
               <span>
                 <a
-                  href="https://drive.google.com/file/d/1fn7WYMvDYjMo1MY7ufG5Vb1nsiMNp4JD/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1kYrBjVEbBIaDm-HFhXorxBj85e2C3atb/view?usp=sharing"
                   target="_blank"
                 >
                   Get CV
