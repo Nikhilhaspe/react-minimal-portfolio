@@ -19,13 +19,7 @@ function Home() {
           <h1 className="text-2xl font-bold md:text-4xl">About</h1>
 
           <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base text-justify">
-            A Computer Science graduate student with expertise in web
-            development, specializing in React.js, Node.js, Kafka, and .NET
-            Core. Skilled in building secure, scalable applications with a focus
-            on clean, readable code. Experienced with MongoDB, SQL Server, and
-            developing automated report generation applications. Strong
-            understanding of data structures, algorithms, and best practices for
-            creating maintainable, elegant codebases.
+            Full Stack Software Developer with 2.5+ years of experience in a product-based environment, specializing in .NET Core, React.js, Node.js, and SQL Server. Experienced in building scalable, event-driven, and fault-tolerant systems using Kafka, Redis, Docker, and Linux. Strong background in real-time data processing, system migrations, and automating data pipelines with Apache Airflow. Proven ability to deliver production-grade solutions with performance, reliability, and security in mind.
           </p>
         </div>
 
@@ -241,6 +235,18 @@ function Home() {
                 Letter of recommendation from manager for working as a MERN/DSA
                 Mentor & Mock interviewer during my internship.
               </p>
+            </div>
+
+            <div className="text-baseline space-y-3">
+              <h3 className="text-sm font-semibold md:text-lg">
+                <a
+                  className="hover:underline"
+                  href="https://www.udemy.com/certificate/UC-bd0543cb-a09d-41b9-b262-bbb3f9ce7124/"
+                  target="_blank"
+                >
+                  Redis Certification from Udemy &rarr;
+                </a>
+              </h3>
             </div>
 
             <div className="text-baseline space-y-3">
