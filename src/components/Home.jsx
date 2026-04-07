@@ -19,7 +19,7 @@ function Home() {
           <h1 className="text-2xl font-bold md:text-4xl">About</h1>
 
           <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base text-justify">
-            Full Stack Software Developer with 2.5+ years of experience in a product-based environment, specializing in .NET Core, React.js, Node.js, and SQL Server. Experienced in building scalable, event-driven, and fault-tolerant systems using Kafka, Redis, Docker, and Linux. Strong background in real-time data processing, system migrations, and automating data pipelines with Apache Airflow. Proven ability to deliver production-grade solutions with performance, reliability, and security in mind.
+            Full Stack Developer with 3+ years of experience building scalable, real-time applications using .NET Core, React, Node.js, Kafka, Redis, SQL Server, and Airflow. Strong in Data Structures & Algorithms and problem-solving. Experienced in event-driven systems, multithreading, and backend engineering. Skilled in integrating AI into applications using LLMs, RAG, AI Agents, Vector DBs, LangChain & LangGraph.
           </p>
         </div>
 
@@ -37,16 +37,7 @@ function Home() {
                   June 2023 - Present
                 </span>
                 <p className="text-sm text-gray-600 dark:text-gray-400 text-justify">
-                  Developed a high-performance NSE Dropcopy Application for
-                  real-time risk processing using .NET Core, Kafka, and TCP/IP
-                  sockets, optimizing data throughput with multi-threading and
-                  an event-driven architecture. Led the migration of a legacy
-                  reporting tool from ASP.NET Web Forms to React.js and .NET
-                  Core, implementing dynamic report generation with filtering,
-                  validation, and export options (PDF, CSV, HTML). Ensured
-                  scalability, security, and maintainability by integrating JWT
-                  authentication, efficient logging, and automated email
-                  reporting.
+                  Built high-performance financial systems at Sharekhan using .NET Core, React, Kafka, Redis, and Airflow. Replaced API-based trade ingestion with secure TCP sockets (AES-256 GCM, LZ4), improving latency ~85–90%. Designed multithreaded, producer-consumer pipelines for parallel processing. Automated workflows via Airflow (Python), reducing processing time ~80%. Migrated legacy ASP.NET app to modern architecture, leveraging Redis caching and JWT-based security to enhance scalability, performance, and reliability.
                 </p>
               </li>
 
